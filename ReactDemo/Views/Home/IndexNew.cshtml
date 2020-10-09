@@ -1,0 +1,26 @@
+﻿@{
+    Layout = null;
+}
+<html>
+<head>
+    <title>Hello React New</title>
+</head>
+<body>
+    <div id="content"></div>
+
+    @* ReactJS library *@
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.2/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.2/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remarkable/1.7.1/remarkable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remarkable/1.7.1/remarkable.min.js"></script>
+
+    @*<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>*@
+
+    @* JSX converter (JSX to native javascript) *@
+    @*<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>*@
+
+    <script src="@Url.Content("~/js/AppData.jsx")"></script>
+    @*<script src="@Url.Content("~/js/CallController.jsx")"></script>*@
+
+</body>
+</html>
